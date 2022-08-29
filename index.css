@@ -32,4 +32,9 @@
   body {
     font-size:12px
   }
+  .cells-enter {
+  position: relative;
+  top: 100px;
+  left: 100px;
+  
 }
