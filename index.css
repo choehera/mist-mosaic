@@ -1,0 +1,63 @@
+@charset "utf-8";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(253, 253, 253);
+  animation: transitionIn 1s;
+
+}
+
+
+.page1 {
+  animation: transitionIn 1s;
+}
+
+
+@keyframes transitionIn {
+  from {
+  opacity: 0;
+  transform: rotateX(-10deg)
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0)
+  }
+}
+
+
+
+
+.cell1 {
+  position: relative;
+  top: 40px;
+}
+
+
+.line1 {
+  height: 80px;
+}
+
+.poster {
+  width: 30%;
+  position: relative;
+  top: 80px;
+
+}
+
+
+.page1 {
+  position: relative;
+  top: 110px;
+  color: rgb(65, 65, 148);
+
+}
+
+
+.cell2 {
+  position: relative;
+  top: 160px;
+}
