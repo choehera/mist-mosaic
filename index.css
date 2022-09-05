@@ -1,0 +1,69 @@
+@charset "utf-8";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url("cells-web-background.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+
+.performance {
+  
+  position: relative;
+  width: 600px;
+  top: 100px;
+  left: 100px;
+}
+
+
+.arrow2 {
+  position: relative;
+  width:2%;
+  top:120px;
+  left: 50px;
+}
+
+.arrow1 {
+  position: relative;
+  width:2%;
+ top: 210px;
+ left:100px;
+}
+
+.star1 {
+  position: relative;
+  width:2%;
+ top: 100px;
+ left:40px;
+}
+
+
+
+
+
+
+
+
+.performance {
+  animation: transitionIn 3s;
+}
+
+.cell_drag {
+  animation: transitionIn 5s;
+}
+
+@keyframes transitionIn {
+  from {
+  opacity: 0;
+  transform: rotateX(0deg)
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0)
+  }
+}
